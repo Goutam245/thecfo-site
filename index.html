@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheCFO.Site | Fractional CFO for Service Businesses</title>
+    <link rel="shortcut icon" href="11.jpeg" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Fractional CFO, controller, and bookkeeping support for service-based businesses doing $2M–$30M. Clear reporting, forecasting, and profitability strategy."
+    />
+    <meta name="author" content="TheCFO.Site" />
+    <meta name="theme-color" content="#121A28" />
+
+    <meta property="og:title" content="TheCFO.Site | Fractional CFO for Service Businesses" />
+    <meta
+      property="og:description"
+      content="Fractional CFO, controller, and bookkeeping support for service-based businesses doing $2M–$30M in revenue."
+    />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    <link rel="preconnect" href="https://api.bookingmantra.club" />
+    <link rel="preconnect" href="https://api.autogrow.app" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script src="https://api.bookingmantra.club/js/form_embed.js"></script>
+    <script>
+      // Delay the LeadConnector chat widget by 30 seconds, then fade it in.
+      (function () {
+        var style = document.createElement("style");
+        style.textContent =
+          "chat-widget{opacity:0;transition:opacity .4s ease;pointer-events:none}" +
+          "html.lc-chat-ready chat-widget{opacity:1;pointer-events:auto}";
+        document.head.appendChild(style);
+        window.setTimeout(function () {
+          var s = document.createElement("script");
+          s.src = "https://widgets.leadconnectorhq.com/loader.js";
+          s.setAttribute(
+            "data-resources-url",
+            "https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+          );
+          s.setAttribute("data-widget-id", "6a39d33d5dcabc40b521bb0e");
+          s.onload = function () {
+            window.setTimeout(function () {
+              document.documentElement.classList.add("lc-chat-ready");
+            }, 300);
+          };
+          document.body.appendChild(s);
+        }, 30000);
+      })();
+    </script>
+  </body>
+</html>
