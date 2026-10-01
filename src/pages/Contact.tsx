@@ -104,8 +104,8 @@ export default function Contact() {
                 <MapPin size={24} color="#B9832B" className="mb-4" />
                 <p className="overline mb-2">Our Office</p>
                 <p className="text-sm text-[hsl(var(--body-text))] leading-relaxed">
-                  Unit 210 – 2030 Bristol Cir<br />
-                  Oakville, ON, L6H 6P5
+                  901 Guelph Line Burlington<br />
+                  ON L7R 3N8
                 </p>
               </div>
             </Reveal>
@@ -133,7 +133,7 @@ export default function Contact() {
             <div className="mt-8 w-full overflow-hidden rounded-2xl border border-[#E1DDD6]">
               <iframe
                 title="TheCFO.Site Office Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2898.5!2d-79.7!3d43.4!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sUnit+210+2030+Bristol+Cir+Oakville+ON!5e0!3m2!1sen!2sca!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2251.540371681944!2d-79.80108492482458!3d43.34954697111814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b61c680973f59%3A0x1efa53f794950909!2s901%20Guelph%20Line%2C%20Burlington%2C%20ON%20L7R%203N8%2C%20Canada!5e1!3m2!1sen!2sbd!4v1790865677973!5m2!1sen!2sbd"
                 width="100%"
                 height="400"
                 style={{ border: 0, display: "block" }}
